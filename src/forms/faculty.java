@@ -1,0 +1,104 @@
+package forms;
+import java.awt.Color;
+import javax.swing.*;
+public class faculty extends JFrame
+{
+    JLabel l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,l13,l14,l15,l16,l17,l18,l19,l20,l21,l22,l23,l24;
+    public faculty(String title)
+    {
+        super(title);
+    l1=new JLabel("Chairman >  ");    
+    l2=new JLabel("Dr. S. Avtar Singh Hit");
+    l3=new JLabel("Contact No. >  8700159079");
+    l4=new JLabel("Manager >  ");
+    l5=new JLabel("Dr. S. Jaspreet Singh( Vicky Mann )");
+    l6=new JLabel("Contact No. >  9211446654");   
+    l7=new JLabel("Director >  ");    
+    l8=new JLabel("Dr.(Ms) Rominder Kaur Randhawa");
+    l9=new JLabel("Contact No. >  9211446653");
+    l10=new JLabel("H.O.D CSE & IT Department >");
+    l11=new JLabel("Dr. P.S. Bedi");
+    l12=new JLabel("Contact No  >  9211446652");
+    l13=new JLabel("H.O.D ECE & EEE Department >");     
+    l14=new JLabel("Dr. Mukesh Sahu");   
+    l15=new JLabel("Contact No:9211446651");   
+    l16=new JLabel("H.O.D Mechanical Department >");   
+    l17=new JLabel("Dr. Gaurav Sandhu");   
+    l18=new JLabel("Contact No:9211446650");   
+    l19=new JLabel("Admission Incharge >");     
+    l20=new JLabel("Mrs. Bavneet Kaur");   
+    l21=new JLabel("Contact No:9211446649");     
+    l22=new JLabel("Placement Cell >");     
+    l23=new JLabel("Mrs. Jagtar Singh");     
+    l24=new JLabel("Contact No:9211446648");   
+    setLayout(null);
+    l1.setBounds(5,10,200,30);
+    l1.setForeground(Color.red);
+    l2.setBounds(220,10,200,30);
+    l2.setForeground(Color.blue);
+    l3.setBounds(220,30,200,30);
+    l3.setForeground(Color.blue);
+    l4.setBounds(5,60,200,30);
+    l4.setForeground(Color.red);
+    l5.setBounds(220,60,200,30);
+    l5.setForeground(Color.blue);
+    l6.setBounds(220,80,200,30);
+    l6.setForeground(Color.blue);
+    l7.setBounds(5,110,200,30);
+    l7.setForeground(Color.red);
+    l8.setBounds(220,110,200,30);
+    l8.setForeground(Color.blue);
+    l9.setBounds(220,130,200,30);
+    l9.setForeground(Color.blue);
+    l10.setBounds(5,160, 200,30);
+    l10.setForeground(Color.red);
+    l11.setBounds(220,160, 200,30);
+    l11.setForeground(Color.blue);
+    l12.setBounds(220,180, 200,30);
+    l12.setForeground(Color.blue);
+    l13.setBounds(5,210,200,30);
+    l13.setForeground(Color.red);
+    l14.setBounds(220,210,200,30);
+    l14.setForeground(Color.blue);
+    l15.setBounds(220,230,200,30);
+    l15.setForeground(Color.blue);
+    l16.setBounds(5,260,200,30);
+    l16.setForeground(Color.red);
+    l17.setBounds(220,260,200,30);
+    l17.setForeground(Color.blue);
+    l18.setBounds(220,280,200,30);
+    l18.setForeground(Color.blue);
+    l19.setBounds(5,310,200,30);
+    l19.setForeground(Color.red);
+    l20.setBounds(220,310,200,30);
+    l20.setForeground(Color.blue);
+    l21.setBounds(220,330,200,30);
+    l21.setForeground(Color.blue);
+    l22.setBounds(5,360,200,30);
+    l22.setForeground(Color.red);
+    l23.setBounds(220,360,200,30);
+    l23.setForeground(Color.blue);
+    l24.setBounds(220,380,200,30);
+    l24.setForeground(Color.blue);
+    add(l1);add(l2);
+    add(l3);add(l4);
+    add(l5);add(l6);
+    add(l7);add(l8);
+    add(l9);add(l10);
+    add(l11); add(l12);
+    add(l13);add(l14); 
+    add(l15);add(l16);
+    add(l17);add(l18);
+    add(l19);add(l20);
+    add(l21);add(l22);
+    add(l23); add(l24);
+    }
+    public static void main(String[] args)
+    {
+     faculty obj=new faculty("Faculty Information");  
+        obj.setSize(450,450);
+        obj.setLocation(500,150);
+        obj.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        obj.setVisible(true);
+  }       
+}
